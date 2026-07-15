@@ -1,5 +1,7 @@
 # 👨‍💻 Git a Dev 👩‍💻
 
+> **Archived:** HackISU 2019 project preserved for reference; the GitHub API and dependencies may have changed since release.
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) 
 [![HitCount](http://hits.dwyl.com/jonathannsegal/git_a_dev.svg)](http://hits.dwyl.com/jonathannsegal/git_a_dev)
 
@@ -39,4 +41,3 @@ Won best domain name at HACKISU
 <img height="200px" src="https://drive.google.com/uc?id=1hpT7o5Y-DrPEN8JZvt5AdZJ5hdFzEiiq"/>
 
 *The Team*
-
