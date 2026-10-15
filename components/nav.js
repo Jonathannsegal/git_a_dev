@@ -13,7 +13,7 @@ const Nav = () => (
   <nav>
     {/* <ul>
       <li>
-        <Link href='/'>
+        <Link legacyBehavior href='/'>
           <a>Home</a>
         </Link>
       </li>

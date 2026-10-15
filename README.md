@@ -41,3 +41,10 @@ Won best domain name at HACKISU
 <img height="200px" src="https://drive.google.com/uc?id=1hpT7o5Y-DrPEN8JZvt5AdZJ5hdFzEiiq"/>
 
 *The Team*
+
+
+## Security maintenance
+
+Use Node.js 24 and `npm ci --legacy-peer-deps`, then `npm run dev`. The application now uses patched Next.js 15 and React 18 while preserving the existing pages and components. `npm test` verifies the server-side GitHub API boundary.
+
+Set `GH_TOKEN` only on the server (for example in `.env.local` or your deployment's private environment). Browser searches use `/api/users`; build environment variables are no longer injected into client bundles.

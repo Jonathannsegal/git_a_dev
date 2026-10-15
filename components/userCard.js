@@ -66,7 +66,7 @@ const UserCard = (props) => (
           </Typography>
 
           <Typography variant="body2">
-            <Link href={props.blog}>Blog</Link>
+            <Link legacyBehavior href={props.blog}>Blog</Link>
           </Typography>
 
           <Typography variant="body2">

@@ -5,21 +5,24 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p 8080"
+    "start": "next start -p 8080",
+    "test": "node --test tests/*.test.mjs"
   },
   "dependencies": {
-    "@material-ui/core": "^4.5.2",
-    "@material-ui/icons": "^4.5.1",
-    "@material-ui/styles": "^4.5.2",
-    "cross-fetch": "^3.0.4",
-    "dotenv": "^8.2.0",
-    "next": "9.1.2",
-    "react": "16.11.0",
-    "react-dom": "16.11.0",
-    "recharts": "^1.8.5",
-    "styled-components": "^4.4.1"
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@material-ui/styles": "^4.11.5",
+    "next": "15.5.28",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "recharts": "^2.15.4",
+    "styled-components": "^5.3.11"
   },
   "devDependencies": {
     "babel-plugin-styled-components": "^1.10.6"
+  },
+  "overrides": {
+    "source-map-js@<1.2.2": "1.2.2",
+    "postcss@<8.5.30": "8.5.30"
   }
 }

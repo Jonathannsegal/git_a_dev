@@ -5,7 +5,6 @@ import { getUsers } from '../../helpers/getUsers'
 import UserCard, { userCard } from '../../components/userCard'
 import styled from 'styled-components'
 import { Layout, Column } from '../../components/layoutStyles';
-import classNames from 'classnames';
 import InputLabel from '@material-ui/core/InputLabel'
 import Select from '@material-ui/core/Select'
 import MenuItem from '@material-ui/core/MenuItem'
@@ -14,7 +13,6 @@ import { withStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField'
 import SimpleMenu from '../../components/dropdown'
 import Button from "@material-ui/core/Button"
-import { white } from 'ansi-colors'
 
 const CardScrollContainer = styled.div`
   display: flex;
