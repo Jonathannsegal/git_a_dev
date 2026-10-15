@@ -32,7 +32,7 @@ const Home = () => (
 
 
       <div className='row'>
-        <Link href='/search'>
+        <Link legacyBehavior href='/search'>
           <Button>
             <Image src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/people_search_wctu.svg" />
             <Typography>
@@ -41,7 +41,7 @@ const Home = () => (
           </Button>
         </Link>
 
-        <Link href='/insight'>
+        <Link legacyBehavior href='/insight'>
           <Button>
             <Image src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/feedback_h2ft.svg" />
             <Typography>
